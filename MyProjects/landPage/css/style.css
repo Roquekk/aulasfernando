@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,10 +10,73 @@ body {
     flex-wrap: wrap;
 }
 
-#about-container {
+#aboutcontainer {
     flex: 1.4;
+    padding: 2rem 4rem;
 }
 
-#form-container {
+#aboutcontainer h2{
+    font-size: 2.4rem;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+#aboutcontainer h4{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+
+#formcontainer {
     flex: 1;
+}
+
+#brand{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+#brand img{
+    height: 50px;
+    margin-right: 0.6rem;
+}
+
+#exclusive {
+    text-transform: uppercase;
+    color: dimgray;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+#date {
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 1rem;
+}
+
+#description {
+    max-width: 500px;
+    margin-bottom: 1rem;
+    line-height: 1.4rem;
+}
+
+#users-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#user-card {
+    border: 2px solid #ccc;
+    padding: 1rem;
+    max-width: 180px;
+    align-items: center;
+}
+
+#user-card img {
+    max-width: 120px;
+    
 }
