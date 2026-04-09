@@ -78,5 +78,16 @@ body {
 
 #user-card img {
     max-width: 120px;
-    
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.user-name {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+}
+
+.user-role {
+    color: #aaa;
+    font-size: 0.9rem;
 }
